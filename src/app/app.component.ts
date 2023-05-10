@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
+import { SchedulerComponent } from './scheduler/scheduler.component';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `
+    <h1>Welkom bij mijn Angular-applicatie</h1>
+    <app-scheduler></app-scheduler>
+  `
 })
 export class AppComponent {
-  title = 'kendo-angular-app';
 }

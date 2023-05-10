@@ -1,0 +1,5 @@
+.hide-all-day .k-scheduler-table tr:nth-of-type(0),
+.k-scheduler-times-all-day,
+.k-scheduler-table.k-scheduler-header-all-day {
+  display: none;
+}
